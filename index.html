@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng dẫn sử dụng</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="admin-tab" data-bs-toggle="tab" data-bs-target="#admin"
+                    type="button" role="tab" aria-controls="admin" aria-selected="true">Admin</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="qlns-tab" data-bs-toggle="tab" data-bs-target="#qlns" type="button"
+                    role="tab" aria-controls="qlns" aria-selected="false">Quản lý nhân sự</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="qlhd-tab" data-bs-toggle="tab" data-bs-target="#qlhd" type="button"
+                    role="tab" aria-controls="qlhd" aria-selected="false">Quản lý hợp đồng</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="qlqtsx-tab" data-bs-toggle="tab" data-bs-target="#qlqtsx" type="button"
+                    role="tab" aria-controls="qlqtsx" aria-selected="false">Quản lý quy trình sản xuất</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="cc-tab" data-bs-toggle="tab" data-bs-target="#cc" type="button" role="tab"
+                    aria-controls="cc" aria-selected="false">Chấm công</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tl-tab" data-bs-toggle="tab" data-bs-target="#tl" type="button" role="tab"
+                    aria-controls="tl" aria-selected="false">Tính lương</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="amdin" role="tabpanel" aria-labelledby="amdin-tab">
+                Admin là người dùng quản lý tài khoản dùng trong hệ thống. Bao gồm các chức năng như thêm, sử, xóa thông
+                tin tài khoản
+                cho nhân viên thực hiện các chức năng như: quản lý nhân sự, quản lý thông tin hợp đồng, chấm công, tính
+                lương.
+                <ol>
+                    <li>
+                        <b>Tạo tài khoản</b>
+                        <p>Đăng nhập với tài khoản Admin để vào chức năng quản lý tài khoản</p>
+                        <img src="./images/1.1.1.png" alt="" class="w-100">
+                        <p>Nhập mã nhân viên, tên đăng nhập mật khẩu và chọn chức năng. Sau đó Bấm tạo mới</p>
+                        <img src="./images/1.1.2.png" alt="" class="w-100">
+                        <p>Tài khoản được tạo thành công và hiển thị vào mục danh sách tài khoản</p>
+                    </li>
+                    <li>
+                        <b>Chỉnh sửa thông tin tài khoản</b>
+                        <p>Vào chức năng quản lý tài khoản bấm chọn tài khoản muốn thay đổi thông tin</p>
+                        <img src="./images/1.2.1.png" alt="" class="w-100">
+                        <p>Thông tin tài khoản được chọn hiển thị mục thông tin tài khoản. Admin thay đổi thông tin bằng
+                            cách thay đổi trực tiếp
+                            các mục thông tin đã hiển thị và bấm cập nhật.</p>
+                        <img src="./images/1.2.2.png" alt="" class="w-100">
+                    </li>
+                    <li>
+                        <b>Xóa tài khoản</b>
+                        <p>Chọn tài khoản cần xóa và bấm Xóa tài khoản</p>
+                        <img src="./images/1.3.1.png" alt="" class="w-100">
+                        <p>Thông tin tài khoản được chọn đã được xóa và danh sách tài khoản được cập nhật lại</p>
+                    </li>
+                </ol>
+            </div>
+            <div class="tab-pane fade" id="qlns" role="tabpanel" aria-labelledby="qlns-tab">
+                <p>Quản lý nhân sự thực hiện các chức năng liên quan đến nhân sự ( công nhân và nhân viên hành chính)
+                    bao gồm: Thêm nhân
+                    sự, thôi việc nhân sự, đánh giá nhân sự trên hệ thống.</p>
+                <p>Để thực hiện các chức năng của quản lý nhân sự, đăng nhập với quyền được thực hiện quản lý nhân sự
+                </p>
+                <ol>
+                    <li>
+                        <b>Thêm nhân sự</b>
+                        <p>Bấm vào mục công nhân để thêm thông tin công nhân vào hệ thống và thực hiện bấm Thêm công
+                            nhân</p>
+                        <img src="./images/2.1.1.png" alt="" class="w-100">
+                        <p>Nhập thông tin công nhân đầy đủ và bấm xác nhận để thêm công nhân vào hệ thống</p>
+                        <img src="./images/2.1.2.png" alt="" class="w-100">
+                        <p>Thêm thông tin công nhân thành công và hiển thị</p>
+                        <img src="./images/2.1.3.png" alt="" class="w-100">
+                    </li>
+                    <li>
+                        <b>Thôi việc nhân sự</b>
+                        <p>Chọn nhân sự cần thôi việc và bấm thôi việc làm</p>
+                        <img src="./images/2.2.1.png" alt="" class="w-100">
+                        <p>Hệ thống thông báo xác nhận và bấm YES.</p>
+                    </li>
+                    <li>
+                        <b>Đánh giá nhân sự</b>
+                        <p>Chọn chức năng đánh giá nhân sự</p>
+                        <img src="./images/2.3.1.png" alt="" class="w-100">
+                        <p>Chọn mục công nhân hoặc nhân viên để đánh giá.</p>
+                        <p>Nhập điểm đánh giá cho các nhân sự -> Bấm Đánh giá->Bấm Xác nhận</p>
+                        <img src="./images/2.3.2.png" alt="" class="w-100">
+                        <p>Hệ thống thông báo đánh giá thành công</p>
+                    </li>
+                </ol>
+            </div>
+            <div class="tab-pane fade" id="qlhd" role="tabpanel" aria-labelledby="qlhd-tab">
+                <p>Nhân viên quản lý hợp đồng là người thực hiện các chức năng liên quan đến thông tin hợp đồng trên hệ
+                    thống.</p>
+                <ol>
+                    <li>
+                        <b>Thêm hợp đồng</b>
+                        <p>Đăng nhập với tài khoản quản lý hợp đồng và chọn chức năng quản lý hợp đồng. Sau đó chọn mục
+                            tạo
+                            hợp đồng</p>
+                        <img src="./images/3.1.1.png" alt="" class="w-100">
+                        <p>Điền thông tin hợp đồng mục tạo hợp đồng gồm: tên hợp đồng, mã khách hàng, ngày bắt đầu, ngày
+                            kết
+                            thúc, các sản phẩm có
+                            trong hợp đồng</p>
+                        <img src="./images/3.1.2.png" alt="" class="w-100">
+                        <p>Bấm Xác nhân để thêm thông tin hợp đồng vào hệ thống</p>
+                    </li>
+                    <li>
+                        <b>Xem tiến độ hợp đồng</b>
+                        <p>Chọn hợp đồng muốn xem tiến độ, sau đó thông tin được hiển thị bên trái gồm thông tin hợp
+                            đồng, tiến độ sản xuất sản
+                            phẩm</p>
+                        <img src="./images/3.2.1.png" alt="" class="w-100">
+                    </li>
+                </ol>
+            </div>
+            <div class="tab-pane fade" id="qlqtsx" role="tabpanel" aria-labelledby="qlqtsx-tab">
+                <p>Quản lý quy trình sản xuất là chức năng giúp nhân viên quản lý quy trình sản xuất thự hiện quản lý
+                    thông tin công đoạn,
+                    sản phẩm, phân chia công đoạn cho sản phẩm, phân công côn đoạn cho công nhân.</p>
+                <ol>
+                    <li>
+                        <b>Phân chia công đoạn sản phẩm</b>
+                        <p>Chọn chức năng Danh sách sản phẩm-> Chọn sản phẩm cần phân chia công đoạn</p>
+                        <img src="./images/4.1.1.png" alt="" class="w-100">
+                        <p>Nhập thông tin công đoạn muốn thêm vào sản phẩm gồm: Tên công đoạn, đơn giá, mã bộ phận, công
+                            đoạn tiên quyết…-> Bấm
+                            Lưu. Công đoạn được thêm vào sản phẩm.</p>
+                        <img src="./images/4.1.2.png" alt="" class="w-100">
+                    </li>
+                    <li>
+                        <b>Phân chia công đoạn cho công nhân</b>
+                        <p>Chọn chức năng Danh sách sản phẩm-> Phân chia công đoạn</p>
+                        <img src="./images/4.2.1.png" alt="" class="w-100">
+                        <p>Chọn công đoạn cần giao cho công nhân và nhập số lượng giao</p>
+                        <img src="./images/4.2.2.png" alt="" class="w-100">
+                        <p>Bấm phân công, bảng phân công ngày hôm nay sẽ được cập nhật phân công mới</p>
+                        <img src="./images/4.2.3.png" alt="" class="w-100">
+                    </li>
+                </ol>
+            </div>
+            <div class="tab-pane fade" id="cc" role="tabpanel" aria-labelledby="cc-tab">
+                <ol>
+                    <li>
+                        <b>Chấm công công nhân</b>
+                        <p>Vào chức năng chấm công-> Chấm công công nhân</p>
+                        <img src="./images/5.1.1.png" alt="" class="w-100">
+                        <p>Tìm kiếm Tổ/nhóm, hoặc theo mã nhân viên. Sau đó nhập số lượng công đoạn làm được của các
+                            công nhân trong ngày->Bấm chấm
+                            công</p>
+                        <img src="./images/5.1.2.png" alt="" class="w-100">
+                    </li>
+                    <li>
+                        <b>Chấm công nhân viên</b>
+                        <p>Chọn chức năng chấm công-> Chấm công nhân viên</p>
+                        <img src="./images/5.2.1.png" alt="" class="w-100">
+                        <p>Tìm kiếm phòng ban-> Nhập dữ liệu chấm công-> Chấm công</p>
+                        <img src="./images/5.2.2.png" alt="" class="w-100">
+                    </li>
+                </ol>
+            </div>
+            <div class="tab-pane fade" id="tl" role="tabpanel" aria-labelledby="tl-tab">
+                <ol>
+                    <li>
+                        <b>Tính lương công nhân</b>
+                        <p>Chọn chức năng tính lương-> Tính lương công nhân-> Bấm tính lương</p>
+                        <img src="./images/6.1.1.png" alt="" class="w-100">
+                    </li>
+                    <li>
+                        <b>Tính lương nhân viên</b>
+                        <p>Chọn chức năng tính lương->Tính lương nhân viên-> Tính lương</p>
+                        <img src="./images/6.2.1.png" alt="" class="w-100">
+
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
